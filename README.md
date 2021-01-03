@@ -28,7 +28,7 @@ arXiv:1412.6980 (2014).
 Le, Quoc V., Navdeep Jaitly, and Geoffrey E. Hinton. "A simple way to initialize recurrent networks of rectified
 linear units." arXiv preprint arXiv:1504.00941 (2015).
 #########################################
-# Techniques For improving Success rates of Recto - Viginal Artificial insemination using Hidden markov models:
+# 2)Techniques For improving Success rates of Recto - Viginal Artificial insemination using Hidden markov models:
 # Motivation to problem statement:
 We consider a system where there are multiple timescales at which Hidden Markov Models are valid. When the
 difference between the different timescales is huge and when the number of parameters given to the Baum-Welch
@@ -39,13 +39,21 @@ accelerometer data obtained over time by, say, periodic sampling of the accelero
 model parameters such as number of hidden states (m) and number of underlying timescales (K) so that B-W algorithm
 captures correct time scale dynamics.
 ## Elbow method:
-## Akaike information criterion (AIC) and Bayesian Information Criterion (BIC)
+![hmm_elbow](https://user-images.githubusercontent.com/65336197/103477055-df578500-4de0-11eb-9483-a195409e755e.JPG)
+
+## Akaike information criterion (AIC) and Bayesian Information Criterion (BIC):
+![hmm_bic](https://user-images.githubusercontent.com/65336197/103477058-e383a280-4de0-11eb-93b8-c4c0aaa25110.JPG)
+
 ## Learning by Baum-Welch (B-W) algorithm
 Assume K the number of time scales is known.We can immediately observe that this mixture can itself be viewed
 as a single "composite" HMM where the transition matrix A of the model is block-diagonal.where the initial state
 probabilities are chosen appropriately and initially randomly choosing either the "upper" matrix A1 (with probability P)
 or the "lower" matrix A2 with probability 1 -P and learning proceeds directly on the composite HMM (with matrix A)
 in the usual Baum-Welch fashion using all of the sequences.
+![hmm_b_w](https://user-images.githubusercontent.com/65336197/103477066-eaaab080-4de0-11eb-901a-34fcef2a30c9.JPG)
+## Future work:
+investigate the link between the rate at which events are observed by a monitoring system.
+Convert observations to voltages of specified limit using IOT devices and monitor system performance.
 ## sources:
 1)Bicego, Manuele, Vittorio Murino, and Mário AT Figueiredo. "Similarity-based clustering of sequences using
 hidden Markov models." International Workshop on Machine Learning and Data Mining in Pattern Recognition.
