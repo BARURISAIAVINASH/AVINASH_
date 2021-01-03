@@ -63,5 +63,35 @@ Hidden Markov Models." CEUR Workshop Proceedings 1649. 2016. .
 3) Smyth, Padhraic. "Clustering sequences with hidden Markov models." Advances in neural information processing
 systems. 1997. 
 
+# 3.UNIVERSAL RAIL MILL (URM) Data Analysis:
+# Motivation to problem:
+The Bhilai steel plant(BSP) located in Bhilai ,in Indian state of Chhattisgarh,is India's first and main producer of
+steel rails,as well as major producer of wide steel plates and other steel products.The plant is the sole supplier
+of the country’s longest rail tracks,which measures 260 meters(850ft).The 130-meter rail,which would be the
+world’s longest rail line in a single piece, was rolled at URM ,Bhilai Steel Plant on 29 November 2016.URM
+section in BSP is operating in three shifts A,B and C .The efficiency of 130 meter rail production in URM section
+is only around 60 % and BSP want to improve it to around (85-90)%.In this report I have mentioned how the
+efficiency of 130-meter rail production is varying in these three shifts and how to analyse various parameters
+which mainly effect in URM section of BSP to achieve 130-meter rail production.
+# PROBLEM STATED BY URM TEAM OF BSP:
+a.To improve 130 m rail production and to analyse various parameters to achieve this. 
+b.Current output is 60 % (approx) and End goal is to achieve (85-90) %(approx).
+# PROCESS IN URM:
+1. CHARGING 2. BREAKDOWN (1) 3 .BREAKDOWN (2) 4. TANDEM MILL 5.VISUAL INSPECTION
+We received two data sets: a. Tandem mill data b. Visual inspection data
+# PRELIMINARY OBSERVATIONS FROM TANDEM MILL DATA:
+a. Each file is dedicated to a rail. b. Each rail is identified with a time-stamp.
+# PROBLEMS IDENTIFIED IN DATASETS PROVIDED:
+a. ID MISMATCH between Tandem mill data and Visual inspection data i.e. same id Ex: A001 is given to first rail after 6 AM in both Tandem mill and Visual inspection data. b. We haven’t received any data regarding Cooling Bed, Breakdown(1), Breakdown(2) as they help in
+correlating data between Tandem mill and Visual inspection.
+
+
+
+
+# CONCLUSION FROM VISUAL INSPECTION DATA:
+a. Increasing trend in efficiency from shift A, B and C. b. But at present we do not know the parameters which affect this increasing efficiency trend.
+# BY USING IBA ANALYSER - PLOTTED GRAPHS ANALYSING PARAMETERS SUCH AS :
+
+
 
 
