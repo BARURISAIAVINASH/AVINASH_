@@ -1,5 +1,5 @@
 
-## 1) Capacity and tranability of Recurrent Neural Networks(rnn_avi)
+## 1) Capacity and tranability of Recurrent Neural Networks:
 
 ### Motivation to problem statement
 The motivation came from recently published article on capacity of synapses in biological
