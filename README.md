@@ -84,14 +84,11 @@ a. Each file is dedicated to a rail. b. Each rail is identified with a time-stam
 # PROBLEMS IDENTIFIED IN DATASETS PROVIDED:
 a. ID MISMATCH between Tandem mill data and Visual inspection data i.e. same id Ex: A001 is given to first rail after 6 AM in both Tandem mill and Visual inspection data. b. We haven’t received any data regarding Cooling Bed, Breakdown(1), Breakdown(2) as they help in
 correlating data between Tandem mill and Visual inspection.
-
-
-
-
+![bsp_1](https://user-images.githubusercontent.com/65336197/103477283-6e659c80-4de3-11eb-9564-b3f08ca89c2d.JPG)
+![bsp_2](https://user-images.githubusercontent.com/65336197/103477286-7291ba00-4de3-11eb-83f7-8fc82a887213.JPG)
 # CONCLUSION FROM VISUAL INSPECTION DATA:
 a. Increasing trend in efficiency from shift A, B and C. b. But at present we do not know the parameters which affect this increasing efficiency trend.
 # BY USING IBA ANALYSER - PLOTTED GRAPHS ANALYSING PARAMETERS SUCH AS :
-
-
+![bsp_3](https://user-images.githubusercontent.com/65336197/103477288-7cb3b880-4de3-11eb-93f6-348ba55dbc98.JPG)
 
 
